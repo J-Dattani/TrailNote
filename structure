@@ -1,0 +1,15 @@
+TrailNote/
+│
+├── manifest.json              # Extension metadata + permissions
+├── background.js              # Handles tracking, active tab events, storage
+├── popup/
+│   ├── popup.html             # The UI when you click the extension icon
+│   ├── popup.css              # Styling for the popup
+│   └── popup.js               # Logic for the buttons and UI
+├── icons/
+│   ├── icon16.png
+│   ├── icon48.png
+│   └── icon128.png
+├── libs/
+│   └── jspdf.umd.min.js       # For PDF generation
+└── README.md

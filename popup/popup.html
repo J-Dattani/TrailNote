@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrailNote</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 TrailNote</h1>
+
+    <div class="buttons">
+      <button id="trackBrowsing">Track My Browsing</button>
+      <button id="trackResearch">Track My Research</button>
+      <button id="stopTracking" class="stop">⛔ Stop Tracking</button>
+    </div>
+    <div class="settings">
+      <label><input type="checkbox" id="useRichPdf"> Use rich PDF (bold headings & clickable links, requires jsPDF)</label>
+    </div>
+
+    <div class="tabs">
+      <button id="tabCurrent" class="tab active">Current Session</button>
+      <button id="tabPast" class="tab">Past Sessions</button>
+    </div>
+
+    <div id="tabContentCurrent">
+      <div id="status">No session active</div>
+      <hr />
+      <div id="logList">No logs yet...</div>
+      <button id="downloadPdf" class="hidden">⬇️ Download PDF</button>
+    </div>
+
+    <div id="tabContentPast" style="display:none">
+      <h3>Past Sessions</h3>
+      <div id="pastSessionsList">Loading...</div>
+    </div>
+  </div>
+
+  <!-- JS Libraries -->
+  <script src="../libs/jspdf.umd.min.js"></script>
+  <script src="../libs/simple-pdf.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
