@@ -2,7 +2,7 @@
 
 TrailNote is a small, privacy-first browser extension (Manifest V3) designed to help you capture and organize quick page snapshots while you browse and research — across Chrome, Edge, Firefox, and Safari. It focuses on short, readable captures — headings, bullets, and concise summaries — so you can build a compact trail of the pages you’ve visited and easily export a shareable PDF of your research journey.
 
-![TrailNote Icon](icons/icon-128.png)
+![TrailNote Icon](icons/icon128.png)
 
 ## What is it? ✨
 
