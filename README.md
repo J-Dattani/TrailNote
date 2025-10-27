@@ -52,7 +52,7 @@ Here are a few screenshots showing TrailNote in action. The images are stored in
 *TrailNote popup UI — start/stop tracking, quick session controls, and the 'Use rich PDF' toggle.*
 
 ### Popup in-page (overlay)
-![Popup in context](docs/screenshots/working%20image%20with%20summary.jpg)
+![Popup in context](docs/screenshots/working%20image%20with%20summary.png)
 
 *Popup showing captured summary and recent logs while browsing a page — useful to quickly review what was captured without leaving the tab.*
 
